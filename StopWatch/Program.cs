@@ -10,6 +10,9 @@ namespace StopWatch
     {
         static void Main(string[] args)
         {
+            StopWatch timer = new StopWatch();
+            timer.StartTimer();
+            Console.ReadLine();
         }
     }
 }
